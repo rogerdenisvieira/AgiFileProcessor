@@ -1,9 +1,9 @@
 package br.com.ominilabs.agifileprocessor.properties;
 
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.Configuration;
 
-@Component
+@Configuration
 public class AgiFileProcessorProperties {
 
     @Value("${file.path.input}")
@@ -12,20 +12,75 @@ public class AgiFileProcessorProperties {
     @Value("${file.path.output}")
     private String fileOutputPath;
 
-    @Value("${file.path.output.extension}")
-    private String fileOutputExtension;
+    @Value("${file.path.input.extension}")
+    private String fileInputExtension;
 
-    @Value("${register.id.vendor}")
-    private String dataVendorID;
+    @Value("${record.id.Salesman}")
+    private String recordSalesmanId;
 
-    @Value("${register.id.customer}")
-    private String dataCustomerID;
+    @Value("${record.id.customer}")
+    private String recordCustomerId;
 
-    @Value("${register.id.sales}")
-    private String dataSalesID;
+    @Value("${record.id.sales}")
+    private String recordSalesId;
 
-    @Value("${register.delimiter}")
-    private String dataDelimiter;
+    @Value("${record.delimiter}")
+    private String delimiter;
 
+    public String getFileInputPath() {
+        return fileInputPath;
+    }
+
+    public String getFileOutputPath() {
+        return fileOutputPath;
+    }
+
+    public String getFileInputExtension() {
+        return fileInputExtension;
+    }
+
+    public String getRecordSalesmanId() {
+        return recordSalesmanId;
+    }
+
+    public String getRecordCustomerId() {
+        return recordCustomerId;
+    }
+
+    public String getRecordSalesId() {
+        return recordSalesId;
+    }
+
+    public String getDelimiter() {
+        return delimiter;
+    }
+
+    public void setFileInputPath(String fileInputPath) {
+        this.fileInputPath = fileInputPath;
+    }
+
+    public void setFileOutputPath(String fileOutputPath) {
+        this.fileOutputPath = fileOutputPath;
+    }
+
+    public void setFileInputExtension(String fileInputExtension) {
+        this.fileInputExtension = fileInputExtension;
+    }
+
+    public void setRecordSalesmanId(String recordSalesmanId) {
+        this.recordSalesmanId = recordSalesmanId;
+    }
+
+    public void setRecordCustomerId(String recordCustomerId) {
+        this.recordCustomerId = recordCustomerId;
+    }
+
+    public void setRecordSalesId(String recordSalesId) {
+        this.recordSalesId = recordSalesId;
+    }
+
+    public void setDelimiter(String delimiter) {
+        this.delimiter = delimiter;
+    }
 }
 

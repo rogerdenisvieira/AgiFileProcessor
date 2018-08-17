@@ -1,0 +1,17 @@
+camel:
+    springboot:
+        main-run-controller: true
+file:
+    path:
+        input: '/in/'
+        input.extension: 'dat'
+        output: '/out/'
+logging:
+    level:
+        root: INFO
+record:
+    delimiter: 'ç'
+    id:
+        Salesman: '001'
+        customer: '002'
+        sales: '003'
