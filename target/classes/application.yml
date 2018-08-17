@@ -12,6 +12,6 @@ logging:
 record:
     delimiter: 'ç'
     id:
-        Salesman: '001'
+        salesman: '001'
         customer: '002'
         sales: '003'

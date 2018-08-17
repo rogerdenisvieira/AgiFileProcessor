@@ -2,30 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c076b5bf-c93d-4705-be52-f4b3aa4ba60b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/in/teste4.dat.old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/in/teste5.dat.old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/model/Sale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/model/Salesman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/predicate/FileExtensionPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/predicate/record/AbstractRecordPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/predicate/record/CustomerPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/predicate/record/SalePredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/predicate/record/SalesmanPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/processor/record/CustomerProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/processor/record/SalesmanProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/model/ItemSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/ominilabs/agifileprocessor/model/ItemSerializerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/teste1.dat.processado" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/teste2.dat.processado" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/teste3.dat.processado" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agifileprocessor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/agifileprocessor.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/AgifileprocessorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/AgiFileprocessorApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/processor/FileProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/processor/FileProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/processor/RegistryProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/processor/record/SaleProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/model/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/model/Sale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/properties/AgiFileProcessorProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/properties/AgiFileProcessorProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/routes/FileRouteBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/routes/FileRoute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ominilabs/agifileprocessor/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/ominilabs/agifileprocessor/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ominilabs/agifileprocessor/model/Sale.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/ominilabs/agifileprocessor/model/Sale.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ominilabs/agifileprocessor/properties/AgiFileProcessorProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/ominilabs/agifileprocessor/properties/AgiFileProcessorProperties.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,36 +28,41 @@
     <session id="503265501">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
+          <entry key="java" value="12" />
           <entry key="processado" value="1" />
           <entry key="properties" value="1" />
-          <entry key="xml" value="1" />
+          <entry key="xml" value="2" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="12" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="2" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="440" />
+          <entry key="java" value="1727" />
           <entry key="properties" value="603" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="440" />
+          <entry key="JAVA" value="1727" />
           <entry key="Properties" value="603" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -126,10 +121,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/AgiFileprocessorApplication.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/model/Sale.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="131">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,113 +133,39 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/predicate/record/SalesmanPredicate.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/ominilabs/agifileprocessor/model/ItemSerializerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#556#557#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/processor/record/CustomerProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/predicate/record/CustomerPredicate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="84" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/routes/FileRoute.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="74" column="23" lean-forward="true" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/in/teste1.dat">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/predicate/record/AbstractRecordPredicate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/model/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-              <folding>
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#524#525#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/model/Sale.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/model/ItemSerializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#494#500#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/model/Salesman.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/model/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="240">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding>
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -290,7 +211,6 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/configuration/AgiFileProcessorConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/configuration/AgiFileProcessorProperties.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/processor/RegistryProcessor.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/routes/FileRouteBuilder.java" />
         <option value="$PROJECT_DIR$/data/in/.camel/teste4.dat" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/ServletInitializer.java" />
@@ -310,11 +230,9 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/config/CamelRouteConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/routes/TestRoute.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/predicate/record/CustomerPredicate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/properties/AgiFileProcessorProperties.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/predicate/record/SalePredicate.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/AgiFileprocessorApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/predicate/record/AbstractRecordPredicate.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/model/Vendor.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/predicate/record/VendorPredicate.java" />
@@ -322,7 +240,14 @@
         <option value="$PROJECT_DIR$/data/in/teste1.dat" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/routes/FileRoute.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/model/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/properties/AgiFileProcessorProperties.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/model/Sale.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/ominilabs/agifileprocessor/model/SaleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/model/Item.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/ominilabs/agifileprocessor/model/ItemSerializerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/model/ItemSerializer.java" />
       </list>
     </option>
   </component>
@@ -334,10 +259,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="58" />
-    <option name="y" value="159" />
-    <option name="width" value="1366" />
-    <option name="height" value="741" />
+    <option name="x" value="1366" />
+    <option name="y" value="-1" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -345,7 +270,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -357,12 +281,6 @@
               <item name="agifileprocessor" type="b2602c69:ProjectViewProjectNode" />
               <item name="AgiFileProcessor" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agifileprocessor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AgiFileProcessor" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="in" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="agifileprocessor" type="b2602c69:ProjectViewProjectNode" />
@@ -399,71 +317,18 @@
               <item name="agifileprocessor" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="agifileprocessor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AgiFileProcessor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="agifileprocessor" type="462c0819:PsiDirectoryNode" />
-              <item name="predicate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agifileprocessor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AgiFileProcessor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="agifileprocessor" type="462c0819:PsiDirectoryNode" />
-              <item name="predicate" type="462c0819:PsiDirectoryNode" />
-              <item name="record" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agifileprocessor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AgiFileProcessor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="agifileprocessor" type="462c0819:PsiDirectoryNode" />
-              <item name="processor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agifileprocessor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AgiFileProcessor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="agifileprocessor" type="462c0819:PsiDirectoryNode" />
-              <item name="processor" type="462c0819:PsiDirectoryNode" />
-              <item name="record" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agifileprocessor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AgiFileProcessor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="agifileprocessor" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agifileprocessor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AgiFileProcessor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534454797273" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534525740678" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -486,7 +351,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AgiFileProcessorTests">
     <configuration name="AgiFileProcessor" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="br.com.ominilabs.agifileprocessor.AgiFileprocessorApplication" />
       <module name="agifileprocessor" />
@@ -500,6 +365,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AgiFileProcessorTests" type="JUnit" factoryName="JUnit">
+      <module name="agifileprocessor" />
+      <option name="PACKAGE_NAME" value="br.com.ominilabs.agifileprocessor" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <dir value="$PROJECT_DIR$/src/test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AgiFileProcessor" />
+      <item itemvalue="JUnit.AgiFileProcessorTests" />
+    </list>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -511,11 +392,28 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AgiFileProcessorTests - 2018.08.17 at 11h 48m 58s.xml">
+      <configuration name="AgiFileProcessorTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AgiFileProcessorTests - 2018.08.17 at 11h 49m 24s.xml">
+      <configuration name="AgiFileProcessorTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AgiFileProcessorTests - 2018.08.17 at 11h 49m 30s.xml">
+      <configuration name="AgiFileProcessorTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AgiFileProcessorTests - 2018.08.17 at 11h 50m 55s.xml">
+      <configuration name="AgiFileProcessorTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AgiFileProcessorTests - 2018.08.17 at 13h 23m 21s.xml">
+      <configuration name="AgiFileProcessorTests" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <frame x="1366" y="-1" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21741453" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19423692" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -524,15 +422,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32930845" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32930845" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21151832" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32930845" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32792208" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -596,25 +494,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/config/CamelRouteConfig.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/routes/TestRoute.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/properties/AgiFileProcessorProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1206#1207#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/predicate/FileExtensionPredicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -625,16 +504,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/model/Vendor.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/AgiFileprocessorApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="90">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -642,17 +515,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/model/Vendor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/predicate/record/SalesmanPredicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="180">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#556#557#0" expanded="true" />
@@ -663,7 +529,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/processor/record/CustomerProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="60">
           <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -673,7 +539,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/predicate/record/CustomerPredicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="210">
           <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -681,20 +547,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/predicate/record/SalePredicate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/routes/FileRoute.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/predicate/record/AbstractRecordPredicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="945">
+          <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -708,10 +564,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/routes/FileRoute.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/predicate/record/AbstractRecordPredicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="74" column="23" lean-forward="true" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
+        <state relative-caret-position="240">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -723,11 +579,7 @@
         <state relative-caret-position="240">
           <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
           <folding>
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -735,22 +587,91 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/model/Salesman.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/properties/AgiFileProcessorProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding>
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/predicate/record/SalePredicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/model/Sale.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="131">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/ominilabs/agifileprocessor/AgifileprocessorApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/ominilabs/agifileprocessor/model/ItemSerializerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/model/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="e#397#398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ominilabs/agifileprocessor/model/ItemSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#494#500#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

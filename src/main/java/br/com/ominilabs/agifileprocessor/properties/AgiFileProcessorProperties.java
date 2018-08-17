@@ -15,7 +15,7 @@ public class AgiFileProcessorProperties {
     @Value("${file.path.input.extension}")
     private String fileInputExtension;
 
-    @Value("${record.id.Salesman}")
+    @Value("${record.id.salesman}")
     private String recordSalesmanId;
 
     @Value("${record.id.customer}")
