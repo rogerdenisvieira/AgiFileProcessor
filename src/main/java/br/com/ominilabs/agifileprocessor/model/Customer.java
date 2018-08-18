@@ -25,4 +25,13 @@ public class Customer {
     public String getBusinessArea() {
         return businessArea;
     }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "cnpj='" + cnpj + '\'' +
+                ", name='" + name + '\'' +
+                ", businessArea='" + businessArea + '\'' +
+                '}';
+    }
 }

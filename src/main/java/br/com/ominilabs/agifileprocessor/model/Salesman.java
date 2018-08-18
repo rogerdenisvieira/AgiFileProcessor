@@ -6,17 +6,17 @@ public class Salesman {
 
     //001çCPFçNameçSalary
 
-    private BigInteger cpf;
+    private String cpf;
     private String name;
     private Float salary;
 
-    public Salesman(BigInteger cpf, String name, Float salary) {
+    public Salesman(String cpf, String name, Float salary) {
         this.cpf = cpf;
         this.name = name;
         this.salary = salary;
     }
 
-    public BigInteger getCpf() {
+    public String getCpf() {
         return cpf;
     }
 
@@ -26,5 +26,14 @@ public class Salesman {
 
     public Float getSalary() {
         return salary;
+    }
+
+    @Override
+    public String toString() {
+        return "Salesman{" +
+                "cpf=" + cpf +
+                ", name='" + name + '\'' +
+                ", salary=" + salary +
+                '}';
     }
 }

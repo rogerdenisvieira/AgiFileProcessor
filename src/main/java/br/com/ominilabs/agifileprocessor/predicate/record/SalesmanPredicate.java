@@ -2,12 +2,11 @@ package br.com.ominilabs.agifileprocessor.predicate.record;
 
 import br.com.ominilabs.agifileprocessor.properties.AgiFileProcessorProperties;
 import org.apache.camel.Exchange;
-import org.apache.camel.Predicate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class SalesmanPredicate extends AbstractRecordPredicate implements Predicate {
+public class SalesmanPredicate extends AbstractRecordPredicate {
 
     private AgiFileProcessorProperties properties;
 
@@ -18,6 +17,6 @@ public class SalesmanPredicate extends AbstractRecordPredicate implements Predic
 
     @Override
     public boolean matches(Exchange exchange) {
-        return isValidRecordForTheID(exchange, properties.getRecordSalesmanId());
+        return this.isValidRecordForTheID(exchange, properties.getRecordSalesmanId());
     }
 }

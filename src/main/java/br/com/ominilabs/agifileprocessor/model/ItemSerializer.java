@@ -13,7 +13,14 @@ public class ItemSerializer {
     private static final String GROUP_END_DELIMITER = "]";
 
 
-    public static List<Item> serialize(String unformattedList){
+    public static List<Item> serialize(String unformattedList) {
+
+        /**
+         *
+         * @author Roger D. Vieira
+         * @return a list of items
+         *
+         */
 
         List<Item> formattedItemList = new ArrayList<Item>();
 
@@ -22,14 +29,25 @@ public class ItemSerializer {
         unformattedList = StringUtils.removeEnd(unformattedList, GROUP_END_DELIMITER);
 
 
+        //splitting list by its value groups
         String[] splittedByGroup = unformattedList.split(GROUP_DELIMITER);
+
 
         String[] ids = splittedByGroup[0].split(VALUE_DELIMITER);
         String[] quantities = splittedByGroup[1].split(VALUE_DELIMITER);
         String[] prices = splittedByGroup[2].split(VALUE_DELIMITER);
 
-
+        for (int i = 0; i < ids.length; i++) {
+            formattedItemList.add(
+                    new Item(
+                            Integer.parseInt(ids[i]),
+                            Float.parseFloat(quantities[i]),
+                            Float.parseFloat(prices[i])
+                    )
+            );
         }
-        return  null;
+
+        return formattedItemList;
     }
 }
+

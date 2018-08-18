@@ -2,15 +2,12 @@ package br.com.ominilabs.agifileprocessor.model;
 
 import org.apache.commons.lang3.StringUtils;
 
+import java.util.Comparator;
 import java.util.List;
 
 public class Sale {
 
     //003çSale IDç[Item ID-Item Quantity-Item Price]çSalesman name
-
-
-
-
 
     private Integer id;
     private String salesmanName;
@@ -21,7 +18,6 @@ public class Sale {
         this.items = items;
         this.salesmanName = salesmanName;
     }
-
 
 
     public Integer getId() {
@@ -36,6 +32,22 @@ public class Sale {
         return salesmanName;
     }
 
+    public Float calculateTotalSaleValue() {
+        Float total = 0.0f;
 
+        for(Item i : items){
+            total += i.getPrice();
+        }
 
+        return total;
+    }
+
+    @Override
+    public String toString() {
+        return "Sale{" +
+                "id=" + id +
+                ", salesmanName='" + salesmanName + '\'' +
+                ", items=" + items +
+                '}';
+    }
 }
