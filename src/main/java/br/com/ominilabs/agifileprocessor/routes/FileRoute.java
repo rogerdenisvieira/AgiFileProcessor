@@ -82,15 +82,8 @@ public class FileRoute extends RouteBuilder {
                                 .log("Sale record was found")
                                 .process(saleProcessor)
                                 .log("Body content after processing: ${body}").endChoice()
-                            //.otherwise()
-                              //.log("No processor was found for the given record ID.")
-                                //.process(invalidRecordProcessor)
-.end()
-
-.to("seda:aggregate");
-
-
-
+                            .end()
+                            .to("seda:aggregate");
 
         from("seda:aggregate")
                 .log("Body content before aggregate: ${body}")
@@ -99,8 +92,5 @@ public class FileRoute extends RouteBuilder {
                 .process(reportProcessor)
                 .to("file://data/out/?fileName=${file:name}.done")
                 .end();
-
-
-
     }
 }

@@ -5,10 +5,7 @@ import org.apache.camel.Exchange;
 import org.apache.camel.Predicate;
 import org.apache.camel.component.file.GenericFile;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.AutoConfigureOrder;
 import org.springframework.stereotype.Component;
-
-import java.io.File;
 
 @Component
 public class FileExtensionPredicate implements Predicate {

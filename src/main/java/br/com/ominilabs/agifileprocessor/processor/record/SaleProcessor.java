@@ -3,7 +3,6 @@ package br.com.ominilabs.agifileprocessor.processor.record;
 import br.com.ominilabs.agifileprocessor.model.ItemSerializer;
 import br.com.ominilabs.agifileprocessor.model.Sale;
 import org.apache.camel.Exchange;
-import org.apache.camel.Processor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
